@@ -1,0 +1,25 @@
+html, body {
+	margin: 0px;
+	height: 100%;
+}
+
+body {
+	background-color: #f5f6f7;
+}
+
+li {
+	display: inline-block;
+	font-size: 9pt;
+	margin-left: 5px;
+}
+
+ul {
+	padding: 0px;
+	text-align: center;
+}
+h3 {
+	margin: 19px 0px 8px;
+}
+label {
+	font-size: 11pt;
+}
