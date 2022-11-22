@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>속성 선택자</title>
+<style type="text/css">
+	/* [id] {
+		width: 200px;
+		height: 45px;
+		background-color: steelblue;
+	} 
+	*/
+	/* type이 text인 태그 , type이 password인 태그 */
+	[type="text"], [type="password"] {
+		width: 200px;
+		height: 45px;
+		background-color: steelblue;
+	}
+	/* type이 button인 태그 */
+	[type="button"] {
+		width: 100px;
+		height: 30px;
+	}
+	
+	:focus {/* 마우스로 클릭해놓은 동안 */
+		background-color: orange;
+	}
+	
+	[value]:hover {/* 마우스를 갖다 대는 동안 */
+		background-color: crimson;
+		border: 0px;
+	}
+	[value]:active {/* 마우스 클릭하는 동안 */
+		background-color: pink;
+		border: 0px;
+	}
+</style>
+</head>
+<body>
+	<input type="text" name="id" id="id"><br>
+	<input type="password" name="pw" id="pw"><br>
+	<input type="button" value="btn">
+</body>
+</html>
