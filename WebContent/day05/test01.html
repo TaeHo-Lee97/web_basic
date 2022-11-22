@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>figcaption Tag</title>
+</head>
+<body>
+	<div style="width: 650px; margin: 0px auto;"><!-- max-width : 최대값 고정 -->
+		<h1 style="background-color: mediumseagreen; color: white; padding: 10px; text-align: center;">
+			figcaption Tag
+		</h1>
+		<div style="padding: 30px; margin: 0px auto;"><!-- 내용물 감싸는 영역 태그 -->
+			<div style="width: 300px; height: 300px; border: 1px solid gray; margin: 0px auto;"><!-- 크기가 없는 값에 text-align: center를 줘도 가운데에 안 온다.(div가 블록태그라 안 됨) -->
+				<div style="width: 280px; height: 280px; margin: 10px; border: 1px solid gray; overflow: hidden;"><!-- overflow : 넘처나는 부분 값 설정 - hidden : 넘치는 부분 감추기 -->
+					<img src="../img/chopa1.jpg" style="width: 280px; height: auto;">
+				</div>
+			</div>
+		</div>
+		
+		<figure style="padding: 30px; margin: 0px auto; margin-top:30px; text-align: center;">
+			<figcaption>Chopa over</figcaption><!-- 이미지에 제목을 붙여주는 태그 -->
+			<div style="width: 300px; height: 300px; border: 1px solid gray; display: inline-block;"><!-- display: inline-block을 주면 크기도 주고 가운데로 보낼 수 있다. -->
+				<div style="width: 280px; height: 280px; margin: 10px; border: 1px solid gray; overflow: hidden;">
+					<img src="../img/chopa1.jpg" style="width: 280px; height: auto;">
+				</div>
+			</div>
+			<figcaption>Chopa lower</figcaption><!-- figcaption을 쓰려면 figure 태그로 무조건 감싸야 한다. -->
+			<p style="margin: 0px;">p tag Chopa</p>
+		</figure>
+	</div>
+</body>
+</html>

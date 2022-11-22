@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.mainfr {
+		width: 650px;
+		margin: 0px auto;
+	}
+	.btn {
+		width: 210px;
+		cursor: pointer;
+		display: inline-block;
+		text-align: center;
+		margin: 0px;
+	}
+</style>
+</head>
+<body>
+	<form method="GET" action="ex01.html" name="frm" id="frm" class="mainfr">
+		<h1 style="text-align: center; background-color: green; padding: 12px;">Smart Join</h1>
+		<div style="float: left; margin-top: 20px; padding: 20px; border: 1px solid gray;">
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="id">이 름 :</label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;" type="text"
+									name="이름" id="이름" placeholder="이름을 입력하세요!" required>
+				</div>
+			</div>
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="pw">i d :</label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;" type="text"
+									name="id" id="id" placeholder="아이디를 입력하세요!" required>
+				</div>
+			</div>
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="pw">p w :</label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;" type="password"
+									name="pw" id="pw" placeholder="비밀번호를 입력하세요!" required>
+				</div>
+			</div>
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="repw">repw :</label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;" type="password"
+									name="repw" id="repw" placeholder="비밀번호를 입력하세요!" required>
+				</div>
+			</div>
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="mail">mail :</label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;" type="text"
+									name="mail" id="mail" placeholder="이메일을 입력하세요!" required>
+				</div>
+			</div>
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="phone">phone :</label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;" type="text"
+									name="phone" id="phone" placeholder="전화번호를 입력하세요!" required>
+				</div>
+			</div>
+			<div style="float:left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label>gender :</label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<div style="width: 50%; float: left; text-align: center;">
+						<input type="radio" name="gen" id="mgen" value="M">
+						<label for="mgen"> 남 자</label>
+					</div>
+					<div style="width: 50%; float: left; text-align: center;">
+						<input type="radio" name="gen" id="wgen" value="F">
+						<label for="wgen"> 여 자</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="margin: 10px 0px;">
+			<h3 class="btn" style="background-color: red;">home</h3>
+			<h3 class="btn" style="background-color: blue;">login</h3>
+			<h3 class="btn" style="background-color: yellow;">back</h3>
+		</div>
+	</form>
+</body>
+</html>

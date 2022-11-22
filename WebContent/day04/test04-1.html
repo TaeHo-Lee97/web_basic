@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>병합 문제</title>
+<style type="text/css">
+	div {
+		width: 800px;
+		margin: 0px auto;
+	}
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	th {
+		background-color: green;
+		width: 25%;
+	}
+	td {
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<table border="1">
+			<caption><strong>병합 문제</strong></caption>
+			<tr>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+			</tr>
+			<tr>
+				<td rowspan="3" style="background-color: yellow;">1-1</td>
+				<td colspan="3" style="background-color: yellow;">1-2</td>
+			</tr>
+			<tr>
+				<td>2-2</td>
+				<td rowspan="3" style="background-color: yellow;">2-3</td>
+				<td>2-4</td>
+			</tr>
+			<tr>
+				<td>3-2</td>
+				<td>3-4</td>
+			</tr>
+			<tr>
+				<td>4-1</td>
+				<td>4-2</td>
+				<td>4-4</td>
+			</tr>
+			<tr>
+				<td>5-1</td>
+				<td colspan="2" style="background-color: yellow;">5-2</td>
+				<td>5-4</td>
+			</tr>
+			<tr>
+				<td>6-1</td>
+				<td>6-2</td>
+				<td>6-3</td>
+				<td>6-4</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
