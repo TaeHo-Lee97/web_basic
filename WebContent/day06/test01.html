@@ -2,51 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="../css/w3.css">
-<style type="text/css">
-	h1 {
-		background-color: crimson;
-		color: white;
-		padding: 10px;
-		text-align: center;
-	}
-</style>
+<title>rgb 색상 구현</title>
 </head>
 <body>
-	<div style="width: 600px; margin: 0px auto;">
-		<h1>Span 태그가 입력태그를 만날 때</h1>
-		<div style="margin-top: 20px;">
-			<span style="width: 200px; height: 35px; padding: 0px; display: inline-block; border: 1px solid gray;">
-				<input type="text" name="year" id="year"
-						style="margin: 0px!important; padding: 0px!important; width: 100%; height: 100%; border: none;"><!-- 속성 값을 줄 때 important를 주면 우선적으로 적용 된다. -->
-			</span>
-			<input type="text" name="mon" id="mon" class="w3-input w3-border w3-blue w3-hover-pink"
-															style="display: inline-block; width: 200px;">
-		</div>
-		
-		<div class="w3-col w3-margin-top"><!-- w3-cl - float: left 들어감 -->
-			<label for="mail">mail :</label>
-			<input type="text" name="mail" id="mail" class="w3-input">
-		</div>
-		
-		<div style="margin-top: 20px; clear: left;">
-			<div style="width: 33.33%; height: 30px; float: left;" class="w3-purple">
-				<div style="margin: 5px 50px 5px 10px;">
-					<input type="text" name="year" id="year" style="width: 177px; height: 20px;">
-				</div>
-			</div>
-			<div style="width: 33.33%; height: 30px; float: left;" class="w3-orange">
-				<div style="margin: 5px 50px 5px 10px;">
-					<input type="text" name="year" id="year" style="width: 177px; height: 20px;">
-				</div>
-			</div>
-			<div style="width: 33.33%; height: 30px; float: left;" class="w3-blue">
-				<div style="margin: 5px 50px 5px 10px;">
-					<input type="text" name="year" id="year" style="width: 177px; height: 20px;">
-				</div>
-			</div>
-		</div>
-	</div>
+	<div style="display: inline-block; background-color: rgb(0, 0, 255); width: 200px; height: 200px;"></div>
+	<div style="display: inline-block; background-color: rgb(0, 255, 0); width: 200px; height: 200px;"></div>
+	<div style="display: inline-block; background-color: rgb(255, 0, 0); width: 200px; height: 200px;"></div>
+	<div style="display: inline-block; background-color: rgb(0, 118, 128); width: 200px; height: 200px;"></div>
+	<div style="display: inline-block; background-color: rgb(111, 111, 111); width: 200px; height: 200px;"></div>
+	<div style="display: inline-block; background-color: rgb(33, 33, 33); width: 200px; height: 200px;"></div>
 </body>
 </html>
